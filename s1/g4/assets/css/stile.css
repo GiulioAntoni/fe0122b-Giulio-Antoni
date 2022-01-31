@@ -1,0 +1,148 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 80.5%;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+    background-image: url(../img/sfondo.png);
+}
+hr {display: none;} 
+body{
+    padding: 15px;
+}
+/* HEADER */
+header{
+    background-color: rgb(47, 109, 224);
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px 2px rgb(48, 46, 46);
+    color: white;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold; 
+    padding-bottom: 20px; 
+}
+.logo{
+    padding-bottom: 20px;
+    margin-top: 15px ;
+}
+header p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+header li{
+    list-style-type: none;
+    line-height: 25px;
+}
+header a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    
+}
+header li::before{ 
+    content:" ->  " ; 
+    color: white;
+}
+header li::after{
+    content: "  <-";
+    color: white;
+}
+
+/* MAIN */
+main{ 
+    background-color: rgb(255, 254, 254);
+    margin-top: 3rem;
+    padding: 15px;
+    box-shadow: 5px 5px 8px 2px rgb(48, 46, 46);
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1+p {
+    color: rgb(78, 73, 73);
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+.lista{
+    padding-left: 05rem;
+    line-height: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+article{
+    padding: 2rem;
+}
+.stronz{
+    color: purple;
+    font-weight: bold;
+}
+#note{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.code{
+    background: rgb(209, 207, 207);
+    border-radius: 10px;
+    border: solid rgb(168, 164, 164);
+}
+main article h1{
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.5rem
+}
+.testo {
+    font-size: 1.8rem;
+    line-height: height 2rem;
+}
+caption{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 2rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+table{
+    width: 100%;
+    border-bottom: 3px solid rgb(3, 7, 218);
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+  }
+ table+p{
+     padding-top: 3rem;
+     padding-bottom: 1.5rem;
+ }
+ .tool{
+     color: steelblue;
+     font-weight: bolder;
+ }
+#video{
+    height: 13rem;
+    padding-left: 35rem;
+    padding-right: 35rem;
+    margin: solids;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+    
+    
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
