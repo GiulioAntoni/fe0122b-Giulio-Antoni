@@ -331,4 +331,22 @@ footer a {
         display: none;
     }
 }
-
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);;
+}
+.grid aside{
+    grid-column-start: 5;
+    
+    
+}
+.grid article{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.bottone{
+    position: fixed;
+    top: 50%;
+    right:  1.5%;
+    width: 34%;
+}
