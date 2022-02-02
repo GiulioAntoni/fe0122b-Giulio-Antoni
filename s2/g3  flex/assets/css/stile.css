@@ -356,4 +356,21 @@ footer a {
     @media screen and (min-width:800px) {
         .articoli{
             flex-direction: column;
+            border: transparent
         }
+        .pippo{
+            display: flex;
+            border: transparent
+            
+        }
+        .articoli div{
+            border: transparent;
+            
+        }
+    }
+    @media screen and (min-width:800px) {
+    main {display: flex}
+    main :nth-child(1) {
+        flex-basis: 70%;
+        margin-right: 5%;}
+}
