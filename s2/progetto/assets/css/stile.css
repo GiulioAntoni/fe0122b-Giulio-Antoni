@@ -1,47 +1,102 @@
 /* IMPOSTAZIONI GENERALI */
-html {
-    font-size: 1.2rem;
+html{
+    font-size: 62.5%;
+}
+body{
+    color: black;
+    font-size: 1.5rem;
     font-family: 'Fira Sans', sans-serif;
     line-height: 1.8rem;
-    color: #000;
-    padding: 2%;
 }
+
 /* HEADER */
 header{
-    padding: 2%;
-    line-height:1.1rem ;
-}
-h1{
-    font-size: 4rem;
-}
-h2{
-    font-size: 1.0rem;
-}
-#icona{
-    color: #e42424
+    line-height: 1.2em;
+    text-align: center;
 }
 header img{
     float: left;
-    height: 2%;
+    padding: 3%;
+}
+/* MAIN */
+main{
+    clear: both;
+}
+h1{
+    font-size: 4rem;
+    padding: 3%;
+    font-weight: bold;
+    padding-left: 28%;
+}
+h2{
+    font-size: 3.5rem;
+    padding: 7vh;
 }
 #blocco1{
     background-image: url(../images/banner.jpg);
-    background-position: center;
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+    padding-top: 5%;
+    display: block;
+    line-height: 1.8rem;
     color: white;
-    padding: 15px;
-    height: auto;
-    width: 100%;
-    
+    text-align: left;
+    padding-bottom: 3%;
 }
-#bottone{
-    background: linear-gradient(45deg, white, blue);
-    font-size: 1.9rem;
+#blocco1 p{
+    display: block;
+    padding-left: 28%;
+    padding-right: 25%;
+    word-wrap: normal;
+    padding-bottom: 3%;
+}
+#blocco1 .bottone{
+    position: relative;
+    left: 28%;
+    margin-bottom: 5%;
+}
+.bottone{
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    text-decoration: none;
+    color: white;
+    padding: 0.8%;
+    text-align: center;
+    background-size: auto;
+}
+main :nth-child(1){
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    border: 3 vh;
+}
+.flex{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+.flex div {
+    width: 20%;
+    padding: 5vw;
+  }
+.flex div p{
+    text-align: left;
+    margin-top: 1vh;
+}
+.icona{
+    color: red;
+    font-size: 2em;
+}
+.blu{
+    background-color: #0c0633;
+    text-align: center;
     color: white;
 }
-    
-
-/* MAIN */
-
 /* FOOTER */
 
 /* RESPONSIVE */
