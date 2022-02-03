@@ -7,4 +7,21 @@
 6 animare le altre 2 parole
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
-
+div{
+    font-family: 'Bree Serif', serif;
+    border: 1px solid black;
+    font-size: 2rem;
+    width:800px;
+    padding: 3%;
+}
+i{
+    color: transparent;
+}
+@keyframes pippo{
+    from {
+        position: relative;
+    }
+    to {
+        position: relative;
+    }
+}
