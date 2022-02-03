@@ -1,0 +1,44 @@
+main{
+    margin-top: 5%;
+    border-bottom: 5%;
+    display: flex;
+    background-color: gray;
+    height: 80%;
+    flex-wrap: wrap;
+}
+div{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    padding: 3%;
+    margin: 2%;
+    align-content: center;
+    box-shadow: 5px 5px 10px 0.8px rgb(46, 45, 45);
+}
+div:hover{
+    transform: scale(1.3);
+    box-shadow: 10,10,10,black;
+}
+h1{
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+.giallo{
+    background-image: linear-gradient(rgb(243, 243, 108) 80%,rgb(97, 97, 97));
+    transform: rotate(-7deg);
+}
+.verde{
+    background-image: linear-gradient(rgb(103, 221, 103) 80%,rgb(97, 97, 97));
+    transform: rotate(6deg);
+}
+.viola{
+    background-image: linear-gradient(rgb(214, 85, 214) 80%,rgb(97, 97, 97));
+    transform: rotate(-9deg);
+}
+#verdo{
+    background-image: linear-gradient(rgb(103, 221, 103) 80%,rgb(97, 97, 97));
+    transform: rotate(10deg);
+}
+
