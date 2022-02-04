@@ -96,7 +96,74 @@ h3{
     background-color: #0c0633;
     text-align: center;
     color: white;
+    height: 30vh;
 }
+.blu h3{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 3vh;
+    line-height: 1.8rem;
+}
+.blu .bottone{
+    position: relative;
+    top: 7vh;
+}
+.immagine{
+    float: left;
+    padding-left: 20vh;
+    height: 60%;
+}
+.immagine img{
+    height: auto;
+    width: 80%;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    padding-top: 10vh;
+    justify-content: center;
+
+}
+.flex2 div {
+    text-align: left;
+    width: 30;
+    padding-bottom: 5vh;
+}
+.flex2 h4{
+    text-align: left;
+    padding: 1vh;
+    font-weight: bold;
+}
+
 /* FOOTER */
+footer{
+    clear: both;
+    background-color: rgb(238, 238, 238);
+}
+footer p{
+    font-weight: bold;
+}
+.flex3{
+    display: flex;
+
+}
+.flex3 div{
+    width: 33%;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-left: 7vw;
+}
+footer>p{
+    text-align:center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
 
 /* RESPONSIVE */
