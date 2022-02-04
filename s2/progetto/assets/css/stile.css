@@ -12,21 +12,42 @@ body{
 /* HEADER */
 header{
     line-height: 1.2em;
-    text-align: center;
+    
+}
+input{
+    display: none;
+}
+label{
+    display: none;
 }
 header img{
     float: left;
     padding: 3%;
 }
+nav{
+    padding: 3vw;
+    text-align: right;
+}
+nav>a{
+    padding: 3vw;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
 /* MAIN */
 main{
     clear: both;
 }
-h1{
+main h1{
     font-size: 4rem;
-    padding: 3%;
-    font-weight: bold;
+    text-shadow: 2px 2px black;
+    padding-bottom: 3vw;
+    text-align: left;
     padding-left: 28%;
+    padding-right: 25%;   
+}
+.perche{
+    text-align: center;
 }
 h2{
     font-size: 3.5rem;
@@ -64,9 +85,7 @@ h2{
     text-align: center;
     background-size: auto;
 }
-main :nth-child(1){
-    text-align: center;
-}
+
 h3{
     font-weight: bold;
     border: 3 vh;
