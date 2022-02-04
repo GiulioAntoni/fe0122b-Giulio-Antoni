@@ -10,6 +10,32 @@ body{
 }
 
 /* HEADER */
+@media screen (max-whith:450px) {
+    header nav ul{
+    color: black;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: #c3c3c3;
+    width: 30vw;
+    height: 40vh;
+    box-shadow: 2ox 2px 6px black;
+    z-index: 1;
+}
+.btnmenu{
+    display: none;
+}
+.icomenu{
+    position: absolute;
+    top: 5vh;
+    right: 1vw;
+    z-index: 2;
+}
+.btnmenu:checked~ nav ul {
+    right: 0%;
+
+}
+}
 header{
     line-height: 1.2em;
     box-shadow: 2 2 2 black;
@@ -226,8 +252,22 @@ footer>p{
         width: 50%;
     }
 }
+
 #text{
     width: 100%;
+}
+@media screen and (min-whidt:768px) {
+    .contflex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    .contflot{
+        float: left;
+        text-align: center;
+        padding-left: 5em;
+    }
 }
 #Contatti{
     position: relative;
@@ -237,7 +277,7 @@ footer>p{
 .contflot{
     float: left;
     text-align: center;
-    padding-left: 5em;
+    padding-left: 1em;
 }
 .contflot input{
     width: 38rem;
@@ -245,21 +285,36 @@ footer>p{
     margin: 0.8em;
 }
 .contflex{
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 }
 .contflot .bottone {
     margin: 2em;
     padding: 1rem;
 }
+@media screen and (max-whidt:451px){
+    #pc{
+        display: block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 2.5em
+    }
+    .fotopc{
+        height: 25vw;
+        width: 25vw;
+        padding: 2rem;
+    }
+    .fotopc>p{
+        align-self: center;
+        align-content: center;
+    }
+}
 #coder{
     font-weight: bold;
     text-align: center;
     font-size: 4rem;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
+    padding: 1.7em;
 }
 #coder>p{
     text-align: center;
@@ -274,8 +329,9 @@ footer>p{
     padding: 2.5em
 }
 .fotopc{
-    height: 60%;
-    width: 60%;
+    height: 25vw;
+    width: 25vw;
+    padding: 2rem;
 }
 .fotopc>p{
     align-self: center;
@@ -304,5 +360,6 @@ table td{
 table tr:nth-child(even){
     background-color: rgb(100, 219, 179);
 }
+
 
 /* RESPONSIVE */
