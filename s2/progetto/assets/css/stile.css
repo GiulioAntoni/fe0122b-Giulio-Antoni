@@ -12,13 +12,7 @@ body{
 /* HEADER */
 header{
     line-height: 1.2em;
-    
-}
-input{
-    display: none;
-}
-label{
-    display: none;
+    box-shadow: 2 2 2 black;
 }
 header img{
     float: left;
@@ -84,6 +78,9 @@ h2{
     padding: 0.8%;
     text-align: center;
     background-size: auto;
+    padding-left: 3vh;
+    padding-right: 3vh;
+
 }
 
 h3{
@@ -163,6 +160,9 @@ footer{
     clear: both;
     background-color: rgb(238, 238, 238);
 }
+footer h6{
+    font-weight: bold;
+}
 footer p{
     font-weight: bold;
 }
@@ -174,15 +174,135 @@ footer p{
     width: 33%;
     align-items: center;
     align-content: center;
-    text-align: left;
     justify-content: center;
     padding-top: 5vh;
     padding-left: 7vw;
 }
+
 footer>p{
     text-align:center;
     padding-top: 2vh;
     padding-bottom: 2vh;
+}
+.flex3 .bottone {
+    position: relative;
+}
+@media screen and (max-width:768px) {
+    h1{
+        line-height: 0.9em;
+    }
+    #blocco1{
+       padding-bottom: 5em;
+    }
+    #blocco p {
+        padding-bottom: 2%;
+    }
+    .immagine{
+        padding-left: 8vh;
+    }
+    .flex3 .bottone{
+        text-align: right;
+    } 
+}
+@media screen and (max-width:450px) {
+    #blocco1{
+        text-align: left;
+    }
+    #blocco1 h1{
+        padding-left: 1em;
+    }
+    #blocco1 p{
+        padding-left: 1em;
+    }
+    h2{
+        line-height: 1.2em;
+    }
+    .immagine{
+        padding-left: 1em;
+        height: 30em;
+    }
+    .immagine img{
+        height: 50%;
+        width: 50%;
+    }
+}
+#text{
+    width: 100%;
+}
+#Contatti{
+    position: relative;
+    text-align: center;
+    padding: 1em;
+}
+.contflot{
+    float: left;
+    text-align: center;
+    padding-left: 5em;
+}
+.contflot input{
+    width: 38rem;
+    height: 4rem;
+    margin: 0.8em;
+}
+.contflex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5em;
+}
+.contflot .bottone {
+    margin: 2em;
+    padding: 1rem;
+}
+#coder{
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+#coder>p{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#pc{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 2.5em
+}
+.fotopc{
+    height: 60%;
+    width: 60%;
+}
+.fotopc>p{
+    align-self: center;
+    align-content: center;
+}
+table {
+   text-align: center;
+   color: black;
+   width: 500px;
+   display: block;
+   margin: auto;
+   padding-bottom: 5rem;
+}
+table caption{
+    padding: 2em;
+    font-weight: bold;
+}
+table th{
+    background-color: #0c4c66;
+    color: white;
+    padding: 2rem;
+}
+table td{
+    padding: 2rem;
+}
+table tr:nth-child(even){
+    background-color: rgb(100, 219, 179);
 }
 
 /* RESPONSIVE */

@@ -4,13 +4,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="">
-  <title></title>  
+  <title>Epicode-Contatti</title>
+  <meta name="description" content="Epicode School: contattaci per i cordi di Front End Developer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/stile.css">
+  <link rel="stylesheet" href="assets/css/all.css">
 </head>
-
-<body>
-
-
-</body>
-
-</html>
+    <body>
+      <header>
+        <img src="assets/images/logo.png" alt="logoEpicode">
+        <nav>
+          <a href="index.html" title="home page" target="_blanck">Home</a>
+          <a href="chi-siamo.html" title="chi siamo" target="_blanck">Chi Siamo</a>
+          <a href="contatti.html" targhet="_blanck">Contatti</a>
+          <a class="bottone" href="contatti.html">Registrati</a>
+        </header>  
+        <main>
+          <h1 id="Contatti">Contatti</h1>
+          <section class="contflot">
+            <form action="post">
+              <fieldset>
+                <input type="text" name="nome" id="nome" placeholder="Nome e cognome"><br>
+                <input type="email" name="email" id="mailcontact" placeholder="Indirizzo valido nome@casella.com"><br>
+                <textarea name="Presentazione" id="presentazione" cols="50" rows="5"
+                placeholder="Scrivi in breve il tuo messaggio"></textarea> <br>
+                <button type="submit" class="bottone"> <strong>Invia il messaggio</strong> </button>
+              </fieldset>
+            </form>
+          </section>
+          
+          <div class="contflex">
+              <div>
+              <h2>Sede formativa</h2>
+                <p> Via Appia 1  <br> 00100 Roma (RM)</p> 
+                <p>info@epicode.school</p>
+                <p>+39 0612345956</p> <br>
+              </div>
+              <div>
+                <h2>Lavora con noi</h2>
+                <p> Per poterti candidare ad un ruolo da docente invia il tuo cv a job@epicode.school</p>
+              </div>
+          </div>
+        </main>
+        <footer >
+          <div class="flex3">
+            <div>
+              <h6>Chi siamo</h6>
+              <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+            </div>
+            <div>
+              <p>Ti piace cio che vedi? condividilo con i tuoi amici!</p>
+              <p><a href=""><i class="fab fa-facebook-square icona"></i></a><a href=""><i class="fab fa-linkedin icona"></i></a><a href=""><i class="fab fa-instagram-square icona"></i></a></p>
+            </div>
+            <div>
+              <p>iscriviti alla nostra newsletter</p>
+              <input type="text" id="text" value="text"><br><br>
+              <a href="contatti.html" class="bottone" target="_blanck">Va bene!</a>
+            </div>
+          </div>
+            <p>&copy;2011 Autore contenuto. Design by Designer sito </p>
+        </footer>
+    </body>
+    
+    </html>
