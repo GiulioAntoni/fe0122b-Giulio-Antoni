@@ -1,0 +1,12 @@
+a{
+    color: black;
+    background-color: rebeccapurple;
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 5rem;
+    transition: 0s;
+    &:hover{
+        background-color: aqua;
+        box-shadow: 2px 2px black 2px;
+    }
+}
