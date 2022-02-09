@@ -1,0 +1,38 @@
+.gallo{
+    background-color: blue;
+    color: white;
+    border: solid black;
+}
+
+.pollo{
+    background-color: yellow;
+    color: black;
+    border: solid black;
+}
+.abbacchio{
+    background-color: green;
+    color: white;
+    border: solid black;
+}
+.falco{
+    background-color: red;
+    color: white;
+    border: solid black;
+}
+
+.nido{
+    background-color: gray;
+    color: white;
+    border: solid black;
+}
+.casa{
+    background-color: aqua;
+    color: white;
+    border: solid black;
+}
+
+.picciotto{
+    background-color: black;
+    color: white;
+    
+}
