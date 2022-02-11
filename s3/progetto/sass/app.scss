@@ -1,0 +1,42 @@
+@import "function";
+
+#carosello{
+    width: 275px;
+    height: auto;
+}
+
+#icone{
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+.nav-link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@mixin boss{
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px black;
+}
+
+body nav{
+    @include boss
+}
+footer{
+    background-color: greenyellow;
+    @include boss;
+    position: relative;
+}
+footer #ancora{
+    position: absolute;
+    right: 15vh;
+    bottom: 1.5vw;
+    font-size: 3rem;
+}
+#ancora a{
+    color: white;
+}
+main{
+    background-color:contrasto"(black);
+}

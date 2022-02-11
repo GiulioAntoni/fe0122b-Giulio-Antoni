@@ -1,0 +1,31 @@
+#carosello {
+  width: 275px;
+  height: auto; }
+
+#icone {
+  color: black;
+  text-align: center;
+  font-size: x-large; }
+
+.nav-link {
+  text-decoration: underline;
+  font-weight: bold; }
+
+body nav {
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black; }
+
+footer {
+  background-color: greenyellow;
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black;
+  position: relative; }
+
+footer #ancora {
+  position: absolute;
+  right: 15vh;
+  bottom: 1.5vw;
+  font-size: 3rem; }
+
+#ancora a {
+  color: white; }

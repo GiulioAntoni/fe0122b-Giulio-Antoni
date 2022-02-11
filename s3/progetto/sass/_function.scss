@@ -1,0 +1,8 @@
+@function contrasto ($colore) {
+    @if (lightness ($colore) >50) {
+        @return (black);}
+    @else {
+      @return(white)
+    }
+        
+}
