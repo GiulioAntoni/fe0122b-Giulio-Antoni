@@ -1,6 +1,9 @@
+@import 'https://fonts.googleapis.com/css2?family=Redressed&family=Shizuru&display=swap';
 #carosello {
-  width: 275px;
-  height: auto; }
+  width: 315px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2rem; }
 
 #icone {
   color: black;
@@ -29,3 +32,33 @@ footer #ancora {
 
 #ancora a {
   color: white; }
+
+main {
+  background-color: #e7dc43;
+  color: #000;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #000;
+  text-align: center; }
+
+.card-group {
+  border-bottom: 2px dotted black; }
+
+footer {
+  align-content: center;
+  align-items: center; }
+
+footer p {
+  text-align: center; }
+
+footer span img {
+  align-self: center; }
+
+.carta {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: fit-content; }

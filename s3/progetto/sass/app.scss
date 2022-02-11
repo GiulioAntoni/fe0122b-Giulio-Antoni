@@ -1,8 +1,10 @@
-@import "function";
+@import 'https://fonts.googleapis.com/css2?family=Redressed&family=Shizuru&display=swap';
 
 #carosello{
-    width: 275px;
+    width: 315px;
     height: auto;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
 #icone{
@@ -18,6 +20,10 @@
 @mixin boss{
     border: solid 1px rgb(0, 0, 0);
     box-shadow: 3px 3px 3px black;
+}
+@mixin testo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 body nav{
@@ -37,6 +43,39 @@ footer #ancora{
 #ancora a{
     color: white;
 }
+@import "function";
+
+$bg-color-dark: rgb(231, 220, 67);
+$bg-color-light : cyan;
+
+
 main{
-    background-color:contrasto"(black);
+    background-color: $bg-color-dark;
+    color: color-contrast($bg-color-dark);
+    @include testo
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: color-contrast($bg-color-dark);
+    text-align: center;
+}
+.card-group{
+    border-bottom: 2px dotted black;
+}
+footer{
+    align-content: center;
+    align-items: center;
+}
+footer p {
+    text-align: center;
+}
+footer span img{
+    align-self: center;
+}
+.carta{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: fit-content;
 }
