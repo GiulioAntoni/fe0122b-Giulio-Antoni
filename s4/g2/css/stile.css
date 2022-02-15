@@ -1,0 +1,31 @@
+h1 {
+  color: aquamarine;
+  text-align: center; }
+
+main {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  border: 2px solid pink;
+  background-color: #ffd9ff;
+  padding: 8px; }
+
+main p {
+  font-style: oblique;
+  font-weight: lighter;
+  color: color-contrast(#ffd9ff); }
+
+div p {
+  font-weight: bold;
+  color: red; }
+
+form {
+  font-style: italic;
+  color: rebeccapurple;
+  text-decoration: underline;
+  background-color: #cff5fa;
+  border: 2px solid blue;
+  box-shadow: 2px 2px 2px black;
+  width: 15vw;
+  padding: 9px;
+  margin: auto; }
