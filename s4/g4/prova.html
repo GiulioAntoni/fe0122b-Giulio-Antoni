@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="nunzio">casa</h1>
+
+<h2>calcolatrice</h2>
+
+<div class="container">
+    <div class="schermo">
+        <input type="text" name="display" id="ops" readonly="readonly" class="display">
+    </div>
+    <div class="numeri"><input type="submit" id="7" value="7"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="8" value="8"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="9" value="9"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="/" value="/"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="4" value="4"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="5" value="5"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="6" value="6"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="*" value="*"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="1" value="1"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="2" value="2"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="3" value="3"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="-" value="-"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="0" value="0"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="." value="."onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="c" value="c"onclick="tasti(7)"></div>
+    <div class="numeri"><input type="submit" id="+" value="+"onclick="tasti(7)"></div>
+    <div class="uguale"><input type="submit" id="=" value="="onclick="tasti(7)"></div>
+
+
+</div>
+
+
+
+<script>
+
+        var animali = [
+            "gatto",
+            "cane",
+            "coniglio",
+            "leone"
+        ];
+        console.log(animali)
+        console.log("animali: " + animali)
+        console.log("animali " + typeof animali)
+
+        var animali1 = new Array(
+            "gatto",
+            "cane",
+            "coniglio",
+        );
+        console.log(animali1)
+
+        document.getElementById("nunzio").innerHTML = animali.toString();
+
+        var saluto = "ciao a tutti gli studenti. bella studenti";
+
+        var pos = saluto.indexOf("studenti");
+
+        console.log(pos)
+
+        console.log(saluto.slice(2, 9))
+
+        var animali6 = [ "cane","gatto","coniglio", "criceto"]
+        var infodelete =delete animali6(2)
+
+        console.log(animali6)
+
+    
+
+    </script>
+</body>
+
+</html>
