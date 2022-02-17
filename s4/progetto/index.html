@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+<header>
+<h1>calcolatrice</h1>
+</header>
+<main>
+  
+        <div id="calcolatrice"> 
+            <input type="text" id="display">
+            <div id="tastierino">
+                <div id="7" class="tasto" onclick="prendiDato(this)">7</div>
+                <div id="8" class="tasto" onclick="prendiDato(this)">8</div>
+                <div id="9" class="tasto" onclick="prendiDato(this)">9</div>
+                <div id="/" class="tasto" onclick="prendiDato(this)">/</div>
+                <div id="4" class="tasto" onclick="prendiDato(this)">4</div>
+                <div id="5" class="tasto" onclick="prendiDato(this)">5</div>
+                <div id="6" class="tasto" onclick="prendiDato(this)">6</div>
+                <div id="*" class="tasto" onclick="prendiDato(this)">x</div>
+                <div id="1" class="tasto" onclick="prendiDato(this)">1</div>
+                <div id="2" class="tasto" onclick="prendiDato(this)">2</div>
+                <div id="3" class="tasto" onclick="prendiDato(this)">3</div>
+                <div id="-" class="tasto" onclick="prendiDato(this)">-</div>
+                <div id="c" class="tasto" onclick="resetCalcolatrice()">C</div>
+                <div id="0" class="tasto" onclick="prendiDato(this)">0</div>
+                <div id="." class="tasto" onclick="prendiDato(this)">.</div>
+                <div id="+" class="tasto" onclick="prendiDato(this)">+</div>
+                <div id="=" class="uguale" onclick="totale()">=</div>
+     
+     
+            </div>
+     
+     
+         </div>
+     
+</main>
+
+     <script src="js/stile.js"></script>
+     <script>
+
+        //calcolatrice
+
+        function prendiDato(elemento){ //riempito con valore di this 
+             let display = document.getElementById("display")
+             let numero = elemento.id
+
+             //var accettati = ['1','2','3','4','5','6','7','8','9','0','.','+','-','/','*']
+
+             display.value += numero
+
+        }
+        function resetCalcolatrice(){
+            document.getElementById("display").value=" "
+        }
+
+        function totale (){
+            let display = document.getElementById("display")
+            display.value = eval(display.value)
+        }
+
+
+
+    </script> 
+</body>
+</html>
