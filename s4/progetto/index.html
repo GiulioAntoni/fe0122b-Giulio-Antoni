@@ -13,7 +13,8 @@
     </header>
 <main>
 
-    <h1>calcolatrice</h1>
+    <h1 id="titolo">calcolatrice</h1>
+    <p>ecco la tua <b>calcolatrice</b></p>
   
         <div id="calcolatrice"> 
             <input type="text" id="display">
@@ -46,6 +47,9 @@
 
      <script src="js/stile.js"></script>
      <script>
+
+         var nomeUtente = window.prompt("Ciao, inserisci il tuo nome: ");
+         document.getElementById("titolo").innerHTML= "Benvenuto " + nomeUtente;
 
         //calcolatrice
 
