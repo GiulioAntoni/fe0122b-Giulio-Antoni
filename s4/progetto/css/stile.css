@@ -4,7 +4,8 @@
 
 header{
     height: 13vh;
-    background-color: blueviolet;
+    background-image: linear-gradient(to top , orange 0%, rgb(253, 242, 221) 100%);
+    color: black;
 }
 h1{
     color: white;
@@ -19,10 +20,12 @@ main{
     width: 80vw;
     margin: auto;
     text-align: center;
-    background-color: rgb(10, 9, 9);
+    background-image: url(../asset/immagini/sfondo-homepage.jpg);
 }
 #calcolatrice{
     background-color: rgb(250, 250, 250);
+    border: solid gray;
+    box-shadow: 1px 1px 0px black;
     border-radius: 30px;
     text-align: center;
     width: 40vw;
@@ -56,6 +59,11 @@ main{
     height: auto;
     display: inline-block;
     border-radius: 90px;
+    
+}
+.tasto:hover {
+    background-color: orange;
+    color: aliceblue;
 }
 .uguale{
     width: 3rem;

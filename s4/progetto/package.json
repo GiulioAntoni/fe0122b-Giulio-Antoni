@@ -1,7 +1,6 @@
 {
   "name": "progetto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/stile.scss css/stile.css -w"
@@ -10,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
-
