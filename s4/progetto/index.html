@@ -5,35 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcolatrice</title>
-    <link rel="stylesheet" href="css/stile.css">
+    <link rel="stylesheet" href="asset/css/stile.css">
+    <link rel="stylesheet" href="asset/css/all.css">
 </head>
 <body>
     <header>
+        
     </header>
 <main>
 
-    <h1 id="titolo">calcolatrice</h1>
+    <h1 id="titolo">calcolatrice </h1>
     <p>ecco la tua <b>calcolatrice</b></p>
-  
+
         <div id="calcolatrice"> 
             <input type="text" id="display" readonly="readonly">
             <div id="tastierino">
-                <div id="7" class="tasto" onclick="prendiDato(this)">7</div>
-                <div id="8" class="tasto" onclick="prendiDato(this)">8</div>
-                <div id="9" class="tasto" onclick="prendiDato(this)">9</div>
-                <div id="/" class="tasto" onclick="prendiDato(this)">/</div>
-                <div id="4" class="tasto" onclick="prendiDato(this)">4</div>
-                <div id="5" class="tasto" onclick="prendiDato(this)">5</div>
-                <div id="6" class="tasto" onclick="prendiDato(this)">6</div>
-                <div id="*" class="tasto" onclick="prendiDato(this)">x</div>
-                <div id="1" class="tasto" onclick="prendiDato(this)">1</div>
-                <div id="2" class="tasto" onclick="prendiDato(this)">2</div>
-                <div id="3" class="tasto" onclick="prendiDato(this)">3</div>
-                <div id="-" class="tasto" onclick="prendiDato(this)">-</div>
+                <div id="7" class="tasto" onclick="calcola(this)">7</div>
+                <div id="8" class="tasto" onclick="calcola(this)">8</div>
+                <div id="9" class="tasto" onclick="calcola(this)">9</div>
+                <div id="/" class="tasto" onclick="calcola(this)">/</div>
+                <div id="4" class="tasto" onclick="calcola(this)">4</div>
+                <div id="5" class="tasto" onclick="calcola(this)">5</div>
+                <div id="6" class="tasto" onclick="calcola(this)">6</div>
+                <div id="*" class="tasto" onclick="calcola(this)">x</div>
+                <div id="1" class="tasto" onclick="calcola(this)">1</div>
+                <div id="2" class="tasto" onclick="calcola(this)">2</div>
+                <div id="3" class="tasto" onclick="calcola(this)">3</div>
+                <div id="-" class="tasto" onclick="calcola(this)">-</div>
                 <div id="c" class="tasto" onclick="resetCalcolatrice()">C</div>
-                <div id="0" class="tasto" onclick="prendiDato(this)">0</div>
-                <div id="." class="tasto" onclick="prendiDato(this)">.</div>
-                <div id="+" class="tasto" onclick="prendiDato(this)">+</div>
+                <div id="0" class="tasto" onclick="calcola(this)">0</div>
+                <div id="." class="tasto" onclick="calcola(this)">.</div>
+                <div id="+" class="tasto" onclick="calcola(this)">+</div>
                 <div id="=" class="uguale" onclick="totale()">=</div>
      
      
@@ -43,7 +45,6 @@
          </div>
      
 </main>
-
      <script src="js/stile.js"></script>
      <script>
 
@@ -52,7 +53,7 @@
 
         //calcolatrice
 
-        function prendiDato(tasto){ 
+        function calcola(tasto){ 
              let display = document.getElementById("display");
              let numero = tasto.id;
              display.value += numero
