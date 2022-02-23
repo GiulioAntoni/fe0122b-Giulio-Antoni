@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+    <p id="contocorrente">conto corrente</p>
+</div>
+<div id="costi">
+</div>
+
+
+
+<script>
+
+    var conto = 1500;
+    document.getElementById('contocorrente').innerHTML=conto
+
+    function scalo (){
+        return Math.floor(Math.random()*100);
+
+    }
+
+
+    console.log(spesa);
+
+    while (conto>=0){
+    var spesa = scalo();
+    conto -= spesa;
+    document.getElementById('costi').innerHTML+= spesa +'  '+ 'tot rimanente'+' : '+ conto+ '<br>';
+
+    var x = 0;
+    if (x==0){
+
+    if  (conto <= 750 && conto>=700){
+        document.getElementById('costi').innerHTML+='sei a metà delle tue disponibilità'+'<br>';
+        x++;
+    }}
+    if (conto<=200){
+        document.getElementById('costi').innerHTML+='stai finendo i soldi'+' '+'<br>';
+
+    }
+    }
+
+    //document.getElementById('costi').style.color= 'red';
+
+
+        
+    //function calcola(tasto){ 
+            // let display = document.getElementById("display");
+            // let numero = tasto.id;
+            // display.value += numero
+</script>
+</body>
+</html>
