@@ -1,0 +1,28 @@
+
+nav{
+    position: fixed;
+    top: 2px;
+}
+
+div li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+
+#tendona{
+   text-decoration: none;
+   border: 1px solid black;
+   padding: 2px;
+   
+}
+#tendina{
+    height: 0;
+    visibility: hidden;
+}
+
+.tende{
+    list-style: none;
+    text-decoration: none;
+}

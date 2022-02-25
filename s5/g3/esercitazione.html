@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="testo">testo principale</h1>
+        <nav>
+            <div id="menu">
+                <ul> 
+                <li>
+                <a href="#" id="tendona">Menu 1</a> 
+                <ul id="tendina"> 
+                <li class="tende"><a href="#">Submenu 1</a></li>
+                <li class="tende"><a href="#">Submenu 1</a></li>
+                <li class="tende"><a href="#">Submenu 1</a></li>
+                <li class="tende"><a href="#">Submenu 1</a></li>
+                <li class="tende"><a href="#">Submenu 1</a></li>
+                </ul> 
+                </li> 
+                </div>
+        </nav>
+    </header>
+
+    <button data-colore="blue">click</button>
+    <button data-colore="red">click</button>
+    <button data-colore="yellow">click</button>
+    <button data-colore="purple">click</button>
+    <button data-colore="pink">click</button>
+
+    <script>
+
+        var testa = document.getElementById('tendona');
+        testa.addEventListener('click',sparisci);
+
+        function sparisci (){
+
+            if(document.getElementById('tendina').style.visibility== ""){
+                document.getElementById('tendina').style.visibility= 'visible';
+            }else {
+                document.getElementById('tendina').style.visibility= "";
+            }
+        }
+        
+
+
+
+
+      var bottone = document.querySelectorAll('button')
+
+      bottone[0].addEventListener('click',cambiaColore);
+      bottone[1].addEventListener('click',cambiaColore);
+      bottone[2].addEventListener('click',cambiaColore);
+      bottone[3].addEventListener('click',cambiaColore);
+      bottone[4].addEventListener('click',cambiaColore);
+
+      function cambiaColore(){
+       var colore = this.getAttribute('data-colore')
+       document.querySelector('testo').style.color= colore
+}
+
+
+
+    </script>
+</body>
+</html>
