@@ -53,11 +53,5 @@
                 $("#email-2").val(' ');
             })
         
-           // $('#nome').focus(function(){
-           //     let selezione = $("#nome").val();
-           //    if(selezione != false){
-           //         $('#nome').next().text('*')}
-           //     
-           // })
-           // focus(function()
+           
     })

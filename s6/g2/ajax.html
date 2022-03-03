@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        fetch('http')
+        .then(function(data){return data.json()})
+
+
+$.ajax({
+    url:'http',
+    success: function(data){
+        data.forEach(function(utente) {
+            var card = $('template-clone .card').clone()
+            card.find('.card-title').text(utente.name)  //qui va a mettere nella card il nome dell'utente
+
+        });
+        
+
+    }
+})
+    </script>
+</body>
+</html>
