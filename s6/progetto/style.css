@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    
 }
 
 .container {
@@ -52,14 +54,19 @@ h2 {
 
 #Restart {
     font-family: 'Montserrat Alternates', sans-serif;
-    float: left;
+    display: block;
     margin-top: 20px;
-    border-radius: 10px;
-    padding: 10px 10px;
-    background: rgb(15, 15, 15);
+    border-radius: 90px;
+    padding: 70px 10px;
+    background: rgb(255, 0, 0);
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    margin: auto;
+    box-shadow: 4px 5px 2px rgb(49, 48, 48);
+    position: fixed;
+    top: 400px;
+    right: 40px;
 }
