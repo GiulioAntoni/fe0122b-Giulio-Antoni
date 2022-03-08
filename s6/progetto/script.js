@@ -20,7 +20,7 @@ $(() => {
             numeroClick++
             $('#clicks').text(numeroClick)
             
-            if(immaginiCliccate.length <= 2){
+            if(immaginiCliccate.length < 2){
                 $(this).children().show()
 
                 let imgId = $(this).children().attr('id')
