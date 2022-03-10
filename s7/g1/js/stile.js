@@ -34,14 +34,14 @@ valida.addEventListener('click', function (evento) {
     } if (controllo) {
         alert('iscrizione completata')
         var lista = new User(userName, mailo, userPass)
-        let utenteRegistrato =salva(lista);
+        let utenteRegistrato = salva(lista);
 
-        if(utenteRegistrato){
-            setTimeout(function(){
+        if (utenteRegistrato) {
+            setTimeout(function () {
                 window.location = 'accesso.html';
-             }, 1000)
+            }, 1000)
         }
-        
+
     }
 })
 
@@ -70,7 +70,4 @@ function salva(utente) {
         return false
     }
 }
-
-
-
 

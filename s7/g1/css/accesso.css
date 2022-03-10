@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+    color: limegreen;
+    
+}
+
+main{
+    padding-top: 15px;
+    height: 100vh;
+    background-image: url(../img/thumb-1920-750482.png);
+    margin-left: 25px;
+    margin-right: 25px;
+    background-size: cover;
+}
+
+form{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 2px solid green;
+    width: 50vw;
+    height: 30vh;
+}
+.form-group{
+    font-style: oblique;
+    font-weight: bolder;
+    display:block;
+    margin-top: 4vh;
+    padding: 10px;
+    color: limegreen;
+}
+.form-group label{
+    margin-right: 3vw;
+}
+input{
+    background-color: transparent;
+    border: 2px solid limegreen;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+button{
+    background-color: springgreen;
+    padding: 1vh 10vw;
+    border: transparent;
+    color: white;
+    box-shadow: 2px 2px 1px black;
+    border-radius: 50%;
+}

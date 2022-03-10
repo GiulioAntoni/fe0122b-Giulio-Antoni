@@ -1,18 +1,23 @@
-body{
-    background-color: rgb(255, 255, 255);
+main{
+    background-image: url(../img/istockphoto-1011498282-170667a.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 60px;
 }
-h1{
-    text-align: center;
-}
+
 form{
-    background-color: rgb(243, 205, 243);
     height: fit-content;
     width: 50vw;
     display: block;
     margin: 40px auto ;
-    padding: 5px;
-    border: 2px solid black;
+    padding:30px 5px;
+    border: 2px solid rgb(31, 255, 1);
     border-radius: 10px;
+    color: rgb(51, 251, 1);
+}
+form input{
+    margin-bottom: 10px;
 }
 input{
     width: 20vw;
@@ -25,9 +30,11 @@ form div{
 .btn-default{
     display: block;
     margin: auto;
-    color: aliceblue;
-    background-color: green;
-    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    border-radius: 50%;
+    border: 1.2px solid black;
     
 }
 
@@ -37,9 +44,10 @@ form div{
 }
 
 .form-control{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(234, 2, 255);
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
+    background-color: transparent;
 }
 
