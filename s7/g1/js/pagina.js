@@ -24,22 +24,28 @@ dataBase.forEach(function (elemento) {
     celle3.innerText = pass
     celle4.innerText= 'elimina'
 
+
+    celle4.setAttribute('data-email',elemento.email)
+
     contenitore.append(riga)
     riga.append(celle1, celle2, celle3,celle4) 
 
     celle4.addEventListener('click',function(){
+        var deleteMail = this.getAttribute('data-email')
         riga.remove();
-        elimina(riga)
+        elimina(deleteMail)
     })
 })
 
 
-function elimina(elemento) {
+function elimina(email) {
+    var indice = dataBase.findIndex(u => u.email == email)
+
     let elementiSalvati = localStorage.getItem('lista')
     let dataBase = elementiSalvati == null ? [] : JSON.parse(elementiSalvati)
 
-    var focus = dataBase.indexOf(elemento)
-    dataBase.splice(focus, 1)
+    //var focus = dataBase.indexOf(elemento)
+    dataBase.splice(indice, 1)
 
     localStorage.setItem('lista', JSON.stringify(dataBase));
     

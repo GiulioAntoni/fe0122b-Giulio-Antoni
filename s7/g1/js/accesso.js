@@ -20,8 +20,6 @@ btnAccesso.addEventListener('click', function(evento){
     })
 })
 
-//
-
 
 
 function accesso(vecchioUtente) {
