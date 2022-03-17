@@ -1,6 +1,12 @@
 interface Smartphone{
     carica:number;   //quantitativo di euro disponibile per le chiamate
     numeroChiamate:number; //numero di chiamate effettuate con il cellulare
+
+    ricarica(unaRicarica:any):void
+    chiamata(minutiDurata:any):void
+    numero404():number
+    getNumeroChiamate():number
+    azzeraChiamate():void
 }
 
 
