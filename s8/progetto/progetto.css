@@ -1,0 +1,39 @@
+div{
+    display: block;
+    margin-top:10vh;
+}
+
+table{
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid black;
+    
+
+}
+
+tr{
+    background-color: beige;
+    color: tomato;
+
+}
+
+tr:nth-child(odd){
+    background-color: tan;
+}
+
+table td{
+    padding: 5px;
+    margin-left: 0;
+    padding-left: 8px;
+}
+
+table tr:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+table th {
+    padding: 1.3vw;
+    font-style: oblique;
+}
