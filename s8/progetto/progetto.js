@@ -41,11 +41,12 @@ fetch('Abbigliamento.json')
         console.log(dress.getacquistocapo());
         let riga = document.createElement('tr');
         tabella.append(riga);
-        riga.addEventListener('click', function () {
-            let saldo = this.getsaldocapo().value;
-            let costo = this.getacquistocapo().value;
-            alert(saldo + costo);
-        });
+        // riga.addEventListener('click',=>({
+        //     let saldo = this.getsaldocapo().value
+        //     let costo = this.getacquistocapo().value
+        //
+        //     alert(saldo + costo)
+        // })
         for (let prop in e) {
             let cella = document.createElement('td');
             cella.innerHTML = e[prop];
