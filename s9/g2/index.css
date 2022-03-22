@@ -1,0 +1,37 @@
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+.col-6{
+
+display: flex;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid blue;
+    margin: 15px auto;
+    text-align: center;
+    width: 15vw;
+    font-weight: bold;
+    
+}
+#contenitoreAudio{
+
+    width: 200px;
+    vertical-align: text-top;
+    padding-top: 25px;
+}
+a:hover{
+    background-color: blue;
+    color: aliceblue;
+    padding: 3px;
+    
+}
+audio{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 55px;
+}
