@@ -1,0 +1,22 @@
+header{
+    height: 30vh;
+    background: rgb(255,2,2);
+    background: linear-gradient(90deg, rgba(255,2,2,1) 1%, rgba(255,255,255,1) 45%, rgba(50,209,17,1) 100%);
+    color: black;
+    text-align: center;
+}
+h1{
+    padding: 4.5vh;
+}
+
+#regioni{
+    display:  inline;
+    width: 15vw;
+    margin-left: 30vw;
+}
+
+#province{
+    display: inline;
+    width: 15vw;
+    margin-left: 2vw;
+}
